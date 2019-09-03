@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>feign-parent</artifactId>
+        <groupId>wh.learn</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>feign-api-service</artifactId>
+    <!--   因为下面还包含多个模块,所以是 pom 形式-->
+    <packaging>pom</packaging>
+    <modules>
+        <module>feign-api-memeber-service</module>
+        <module>feign-api-order-service</module>
+    </modules>
+
+</project>

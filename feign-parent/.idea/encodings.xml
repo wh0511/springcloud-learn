@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api-service/feign-api-memeber-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api-service/feign-api-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-member-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-order-service-impl" charset="UTF-8" />
+  </component>
+</project>

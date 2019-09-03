@@ -1,0 +1,15 @@
+###服务端口号
+server:
+  port: 8502
+spring:
+  application:
+    name: consul-member
+  ####consul注册中心地址
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+#        配置该项后,服务地址直接为ip地址,不是那种分配的中英文混合字符串
+        hostname: 192.168.18.220
+
